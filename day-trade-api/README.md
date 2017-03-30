@@ -1,0 +1,1 @@
+Day Trader API is a basic Spring Boot project which exposes a REST API using JAX-RS.
