@@ -16,7 +16,7 @@ public class TradingInsightBean implements TradingInsight {
 
     @Override
     public Suggestion getTopSuggestion() {
-        return new Suggestion();
+        return topData();
     }
 
     private Suggestion buyData() {
@@ -35,7 +35,7 @@ public class TradingInsightBean implements TradingInsight {
         buy.setDetail(order);
         return buy;
     }
-    
+
     private Suggestion sellData() {
         Suggestion buy = new Suggestion();
         buy.setOrder("SELL TODD");
@@ -52,7 +52,7 @@ public class TradingInsightBean implements TradingInsight {
         buy.setDetail(order);
         return buy;
     }
-    
+
     private Suggestion topData() {
         Suggestion buy = new Suggestion();
         buy.setOrder("BUY JAMS");

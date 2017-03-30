@@ -11,19 +11,19 @@ import org.springframework.stereotype.Service;
 @Service
 public interface TradingInsight {
 
-	@GET
+    @GET
     @Path("buy")
     @Produces(MediaType.APPLICATION_JSON)
     Suggestion getBuySuggestion();
-	
-	@GET
+
+    @GET
     @Path("sell")
     @Produces(MediaType.APPLICATION_JSON)
     Suggestion getSellSuggestion();
-	
-	@GET
+
+    @GET
     @Path("top")
     @Produces(MediaType.APPLICATION_JSON)
     Suggestion getTopSuggestion();
-	
+
 }

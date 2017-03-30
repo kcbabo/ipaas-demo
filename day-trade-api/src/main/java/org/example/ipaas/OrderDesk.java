@@ -13,12 +13,12 @@ import org.springframework.stereotype.Service;
 @Service
 public interface OrderDesk {
 
-	@POST
+    @POST
     @Path("")
     @Consumes(MediaType.APPLICATION_JSON)
     void placeTrade(Trade trade);
-	
-	@GET
+
+    @GET
     @Path("")
     @Produces(MediaType.APPLICATION_JSON)
     Trade getTrade();

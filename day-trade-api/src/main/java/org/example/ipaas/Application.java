@@ -26,15 +26,14 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-
-
 /**
- * A spring-boot application that includes a Camel route builder to setup the Camel routes
+ * A spring-boot application that includes a Camel route builder to setup the
+ * Camel routes
  */
 @SpringBootApplication
 public class Application {
-	
-	@Autowired
+
+    @Autowired
     private Bus bus;
 
     // must have a main method spring-boot can run
