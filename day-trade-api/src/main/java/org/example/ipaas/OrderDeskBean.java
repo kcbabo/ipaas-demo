@@ -12,4 +12,9 @@ public class OrderDeskBean implements OrderDesk {
         return new Trade("RHT", 1000, "BUY", 80, "");
     }
 
+    @Override
+    public Trade getTrade(String id) {
+        return new Trade("RHT", 1000, "BUY", 80, "");
+    }
+
 }
