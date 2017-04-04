@@ -1,5 +1,8 @@
 package org.example.ipaas;
 
+import io.swagger.annotations.Api;
+
+@Api("/apis")
 public class OrderDeskBean implements OrderDesk {
 
     @Override

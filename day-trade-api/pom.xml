@@ -55,11 +55,19 @@
       <artifactId>cxf-spring-boot-starter-jaxrs</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.apache.cxf</groupId>
+      <artifactId>cxf-rt-rs-service-description-swagger</artifactId>
+    </dependency>
+    <dependency>
         <groupId>org.codehaus.jackson</groupId>
         <artifactId>jackson-jaxrs</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.swagger</groupId>
+      <artifactId>swagger-jaxrs</artifactId>
+    </dependency>
 
-  	
+    
     <!-- testing -->
     <dependency>
       <groupId>junit</groupId>
